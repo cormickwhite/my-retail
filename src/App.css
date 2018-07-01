@@ -31,6 +31,36 @@
   padding-right: 10px;
 }
 
+.button-container {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle-button {
+  color: grey;
+  border: none;
+}
+
+.purchase-buttons {
+  color: white;
+  font-size: 1.25em;
+  border-radius: 4px;
+  width: 49.5%;
+  padding: 10px 24px;
+}
+
+.purchase-buttons.red {
+  background-color: #cc0000;
+}
+
+.purchase-buttons.black {
+  background-color: #000000;
+}
+
 .image-carousel-container {
   display: flex;
   align-items: center;
@@ -103,6 +133,10 @@
   font-size: 2em;
 }
 
+.sm-text {
+  font-size: 0.75em;
+}
+
 .sm-subtext {
   color: #808080;
   font-size: 0.75em;
@@ -116,4 +150,26 @@
 .bottom-divider {
   border-bottom: 1px solid #c0c0c0;
   padding-top: 10px;
+}
+
+.outline-box {
+  border: 1px solid #c0c0c0;
+  height: 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.quantity-value {
+  font-size: 1.5em;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
