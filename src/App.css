@@ -9,6 +9,14 @@
   min-width: 500px;
 }
 
+.target-red {
+  color: #cc0000;
+}
+
+.component {
+  padding: 20px;
+}
+
 .title-container {
   font-size: 2em;
   text-align: center;
@@ -98,4 +106,14 @@
 .sm-subtext {
   color: #808080;
   font-size: 0.75em;
+}
+
+.top-divider {
+  border-top: 1px solid #c0c0c0;
+  padding-bottom: 10px;
+}
+
+.bottom-divider {
+  border-bottom: 1px solid #c0c0c0;
+  padding-top: 10px;
 }

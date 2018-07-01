@@ -4,6 +4,7 @@ import './App.css';
 import ProductTitle from './components/ProductTitle';
 import ProductImages from './components/ProductImages';
 import ProductPrice from './components/ProductPrice';
+import ProductPromotions from './components/ProductPromotions';
 
 import ItemData from './itemData.json';
 
@@ -20,6 +21,7 @@ class App extends Component {
           </div>
           <div className="App-col-contents">
             <ProductPrice price={item.Offers[0].OfferPrice[0]} />
+            <ProductPromotions promotions={item.Promotions} />
           </div>
         </div>
       </div>
