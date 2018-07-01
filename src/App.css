@@ -16,6 +16,13 @@
   padding: 30px;
 }
 
+.price-container {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .image-carousel-container {
   display: flex;
   align-items: center;
@@ -82,4 +89,13 @@
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
+}
+
+.lrg-text {
+  font-size: 2em;
+}
+
+.sm-subtext {
+  color: #808080;
+  font-size: 0.75em;
 }
