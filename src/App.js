@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import ProductTitle from './components/ProductTitle';
+
+import ItemData from './itemData.json';
 
 class App extends Component {
   render() {
+    const item = ItemData.CatalogEntryView[0];
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <div className="App-row-container">
+          <div className="App-col-contents">
+            <ProductTitle title={item.title} />
+          </div>
+        </div>
       </div>
     );
   }
