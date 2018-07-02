@@ -48,10 +48,19 @@ class ProductPurchase extends Component {
         </div>
         <div className="button-container">
           {pickupInStore && (
-            <button className="purchase-buttons black">PICK UP IN STORE</button>
+            <div style={{ flexGrow: 1 }}>
+              <button className="purchase-buttons black">
+                PICK UP IN STORE
+              </button>
+              <div style={{ textAlign: 'center' }}>
+                <strong>find in a store</strong>
+              </div>
+            </div>
           )}
           {addToCart && (
-            <button className="purchase-buttons red">ADD TO CART</button>
+            <div style={{ flexGrow: 1 }}>
+              <button className="purchase-buttons red">ADD TO CART</button>
+            </div>
           )}
         </div>
       </div>

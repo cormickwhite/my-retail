@@ -36,23 +36,17 @@ li {
 }
 
 .button-container {
-  padding-top: 20px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
 }
 
 .button-container.registry {
-  padding-top: 20px;
-  padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .registry-buttons {
@@ -78,10 +72,12 @@ li {
 }
 
 .purchase-buttons {
+  display: block;
+  width: 98%;
+  text-align: center;
   color: white;
   font-size: 1.25em;
   border-radius: 4px;
-  width: 49.5%;
   padding: 10px 24px;
 }
 

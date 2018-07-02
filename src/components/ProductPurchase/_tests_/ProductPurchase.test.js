@@ -2,30 +2,59 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import ProductPurchase from '../index.js';
 
-const pickUpInStoreButton = (
-  <button className="purchase-buttons black">PICK UP IN STORE</button>
-);
-const addToCartButton = (
-  <button className="purchase-buttons red">ADD TO CART</button>
-);
+describe('available ProductPurchase buttons', () => {
+  const pickUpInStoreButton = (
+    <button className="purchase-buttons black">PICK UP IN STORE</button>
+  );
+  const addToCartButton = (
+    <button className="purchase-buttons red">ADD TO CART</button>
+  );
 
-it('shows pick up in store and add to cart when code is 0', () => {
-  const productPurchase = shallow(<ProductPurchase purchaseChannelCode="0" />);
+  it('shows pick up in store and add to cart when code is 0', () => {
+    const wrapper = shallow(<ProductPurchase purchaseChannelCode="0" />);
 
-  expect(productPurchase.contains(pickUpInStoreButton)).toEqual(true);
-  expect(productPurchase.contains(addToCartButton)).toEqual(true);
+    expect(wrapper.contains(pickUpInStoreButton)).toEqual(true);
+    expect(wrapper.contains(addToCartButton)).toEqual(true);
+  });
+
+  it("doesn't show pick up in store when code is 1", () => {
+    const wrapper = shallow(<ProductPurchase purchaseChannelCode="1" />);
+
+    expect(wrapper.contains(pickUpInStoreButton)).toEqual(false);
+    expect(wrapper.contains(addToCartButton)).toEqual(true);
+  });
+
+  it("doesn't show add to cart when code is 2", () => {
+    const wrapper = shallow(<ProductPurchase purchaseChannelCode="2" />);
+
+    expect(wrapper.contains(pickUpInStoreButton)).toEqual(true);
+    expect(wrapper.contains(addToCartButton)).toEqual(false);
+  });
 });
 
-it("doesn't show pick up in store when code is 1", () => {
-  const productPurchase = shallow(<ProductPurchase purchaseChannelCode="1" />);
+describe('quantity', () => {
+  it('increases quantity', () => {
+    const wrapper = shallow(<ProductPurchase purchaseChannelCode="0" />);
 
-  expect(productPurchase.contains(pickUpInStoreButton)).toEqual(false);
-  expect(productPurchase.contains(addToCartButton)).toEqual(true);
-});
+    wrapper.instance().increaseQuantity();
 
-it("doesn't show add to cart when code is 2", () => {
-  const productPurchase = shallow(<ProductPurchase purchaseChannelCode="2" />);
+    expect(wrapper.state('quantity')).toEqual(2);
+  });
 
-  expect(productPurchase.contains(pickUpInStoreButton)).toEqual(true);
-  expect(productPurchase.contains(addToCartButton)).toEqual(false);
+  it('decreases quantity', () => {
+    const wrapper = shallow(<ProductPurchase purchaseChannelCode="0" />);
+
+    wrapper.setState({ quantity: 5 });
+    wrapper.instance().decreaseQuantity();
+
+    expect(wrapper.state('quantity')).toEqual(4);
+  });
+
+  it("doesn't decrease quantity if 1", () => {
+    const wrapper = shallow(<ProductPurchase purchaseChannelCode="0" />);
+
+    wrapper.instance().decreaseQuantity();
+
+    expect(wrapper.state('quantity')).toEqual(1);
+  });
 });
