@@ -7,6 +7,8 @@ import ProductPrice from './components/ProductPrice';
 import ProductPromotions from './components/ProductPromotions';
 import ProductPurchase from './components/ProductPurchase';
 import ProductReturns from './components/ProductReturns';
+import ProductRegistryShare from './components/ProductRegistryShare';
+import ProductHighlights from './components/ProductHighlights';
 
 import ItemData from './itemData.json';
 
@@ -26,6 +28,8 @@ class App extends Component {
             <ProductPromotions promotions={item.Promotions} />
             <ProductPurchase purchaseChannelCode={item.purchasingChannelCode} />
             <ProductReturns />
+            <ProductRegistryShare />
+            <ProductHighlights highlights={item.ItemDescription[0].features} />
           </div>
         </div>
       </div>
