@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders html features 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProductHighlights
+    highlights={
+        Array [
+            "<strong>Painter:</strong> Bob Ross",
+            "<strong>Brushes Included:</strong> 3 ",
+            "<strong>Paints Included:</strong> 7",
+            "<strong>Includes:</strong> Paint",
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          product highlights
+</h1>,
+        Array [
+          <li
+            dangerouslySetInnerHTML={
+                        Object {
+                                    "__html": "<strong>Painter:</strong> Bob Ross",
+                                  }
+            }
+/>,
+          <li
+            dangerouslySetInnerHTML={
+                        Object {
+                                    "__html": "<strong>Brushes Included:</strong> 3 ",
+                                  }
+            }
+/>,
+          <li
+            dangerouslySetInnerHTML={
+                        Object {
+                                    "__html": "<strong>Paints Included:</strong> 7",
+                                  }
+            }
+/>,
+          <li
+            dangerouslySetInnerHTML={
+                        Object {
+                                    "__html": "<strong>Includes:</strong> Paint",
+                                  }
+            }
+/>,
+        ],
+      ],
+      "className": "component",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "product highlights",
+        },
+        "ref": null,
+        "rendered": "product highlights",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "dangerouslySetInnerHTML": Object {
+            "__html": "<strong>Painter:</strong> Bob Ross",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "dangerouslySetInnerHTML": Object {
+            "__html": "<strong>Brushes Included:</strong> 3 ",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {
+          "dangerouslySetInnerHTML": Object {
+            "__html": "<strong>Paints Included:</strong> 7",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "host",
+        "props": Object {
+          "dangerouslySetInnerHTML": Object {
+            "__html": "<strong>Includes:</strong> Paint",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "li",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            product highlights
+</h1>,
+          Array [
+            <li
+              dangerouslySetInnerHTML={
+                            Object {
+                                          "__html": "<strong>Painter:</strong> Bob Ross",
+                                        }
+              }
+/>,
+            <li
+              dangerouslySetInnerHTML={
+                            Object {
+                                          "__html": "<strong>Brushes Included:</strong> 3 ",
+                                        }
+              }
+/>,
+            <li
+              dangerouslySetInnerHTML={
+                            Object {
+                                          "__html": "<strong>Paints Included:</strong> 7",
+                                        }
+              }
+/>,
+            <li
+              dangerouslySetInnerHTML={
+                            Object {
+                                          "__html": "<strong>Includes:</strong> Paint",
+                                        }
+              }
+/>,
+          ],
+        ],
+        "className": "component",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "product highlights",
+          },
+          "ref": null,
+          "rendered": "product highlights",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "dangerouslySetInnerHTML": Object {
+              "__html": "<strong>Painter:</strong> Bob Ross",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "dangerouslySetInnerHTML": Object {
+              "__html": "<strong>Brushes Included:</strong> 3 ",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "dangerouslySetInnerHTML": Object {
+              "__html": "<strong>Paints Included:</strong> 7",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "host",
+          "props": Object {
+            "dangerouslySetInnerHTML": Object {
+              "__html": "<strong>Includes:</strong> Paint",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "li",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

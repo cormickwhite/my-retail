@@ -1,0 +1,1318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductImages renders 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProductImages
+    images={
+        Array [
+            Object {
+              "AlternateImages": Array [
+                Object {
+                  "image": "http://target.scene7.com/is/image/Target/14263758_Alt01",
+                },
+                Object {
+                  "image": "http://target.scene7.com/is/image/Target/14263758_Alt02",
+                },
+                Object {
+                  "image": "http://target.scene7.com/is/image/Target/14263758_Alt03",
+                },
+                Object {
+                  "image": "http://target.scene7.com/is/image/Target/14263758_Alt04",
+                },
+                Object {
+                  "image": "http://target.scene7.com/is/image/Target/14263758_Alt05",
+                },
+                Object {
+                  "image": "http://target.scene7.com/is/image/Target/14263758_Alt06",
+                },
+                Object {
+                  "image": "http://target.scene7.com/is/image/Target/14263758_Alt07",
+                },
+              ],
+              "PrimaryImage": Array [
+                Object {
+                  "image": "http://target.scene7.com/is/image/Target/14263758",
+                },
+              ],
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="image-carousel-container"
+>
+          <img
+                    alt="blender"
+                    onClick={[Function]}
+                    src="http://target.scene7.com/is/image/Target/14263758"
+          />
+</div>,
+        <div
+          className="image-enhance-container"
+          onClick={[Function]}
+>
+          <FontAwesomeIcon
+                    border={false}
+                    className=""
+                    color="grey"
+                    fixedWidth={false}
+                    flip={null}
+                    icon={
+                              Object {
+                                        "icon": Array [
+                                          512,
+                                          512,
+                                          Array [],
+                                          "f00e",
+                                          "M304 192v32c0 6.6-5.4 12-12 12h-56v56c0 6.6-5.4 12-12 12h-32c-6.6 0-12-5.4-12-12v-56h-56c-6.6 0-12-5.4-12-12v-32c0-6.6 5.4-12 12-12h56v-56c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v56h56c6.6 0 12 5.4 12 12zm201 284.7L476.7 505c-9.4 9.4-24.6 9.4-33.9 0L343 405.3c-4.5-4.5-7-10.6-7-17V372c-35.3 27.6-79.7 44-128 44C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 48.3-16.4 92.7-44 128h16.3c6.4 0 12.5 2.5 17 7l99.7 99.7c9.3 9.4 9.3 24.6 0 34zM344 208c0-75.2-60.8-136-136-136S72 132.8 72 208s60.8 136 136 136 136-60.8 136-136z",
+                                        ],
+                                        "iconName": "search-plus",
+                                        "prefix": "fas",
+                                      }
+                    }
+                    inverse={false}
+                    listItem={false}
+                    mask={null}
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size="2x"
+                    spin={false}
+                    symbol={false}
+                    transform={null}
+          />
+           view larger
+</div>,
+        <div
+          className="image-carousel-container"
+>
+          <button
+                    className="image-buttons"
+                    onClick={[Function]}
+          >
+                    <FontAwesomeIcon
+                              border={false}
+                              className=""
+                              color="grey"
+                              fixedWidth={false}
+                              flip={null}
+                              icon={
+                                        Object {
+                                                  "icon": Array [
+                                                    256,
+                                                    512,
+                                                    Array [],
+                                                    "f104",
+                                                    "M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z",
+                                                  ],
+                                                  "iconName": "angle-left",
+                                                  "prefix": "fas",
+                                                }
+                              }
+                              inverse={false}
+                              listItem={false}
+                              mask={null}
+                              pull={null}
+                              pulse={false}
+                              rotation={null}
+                              size="3x"
+                              spin={false}
+                              symbol={false}
+                              transform={null}
+                    />
+          </button>
+          <img
+                    alt="blender"
+                    className="image-thumbnail"
+                    onClick={[Function]}
+                    src="http://target.scene7.com/is/image/Target/14263758_Alt07"
+          />
+          <img
+                    alt="blender"
+                    className="image-thumbnail current-image"
+                    src="http://target.scene7.com/is/image/Target/14263758"
+          />
+          <img
+                    alt="blender"
+                    className="image-thumbnail"
+                    onClick={[Function]}
+                    src="http://target.scene7.com/is/image/Target/14263758_Alt01"
+          />
+          <button
+                    className="image-buttons"
+                    onClick={[Function]}
+          >
+                    <FontAwesomeIcon
+                              border={false}
+                              className=""
+                              color="grey"
+                              fixedWidth={false}
+                              flip={null}
+                              icon={
+                                        Object {
+                                                  "icon": Array [
+                                                    256,
+                                                    512,
+                                                    Array [],
+                                                    "f105",
+                                                    "M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z",
+                                                  ],
+                                                  "iconName": "angle-right",
+                                                  "prefix": "fas",
+                                                }
+                              }
+                              inverse={false}
+                              listItem={false}
+                              mask={null}
+                              pull={null}
+                              pulse={false}
+                              rotation={null}
+                              size="3x"
+                              spin={false}
+                              symbol={false}
+                              transform={null}
+                    />
+          </button>
+</div>,
+        <div
+          className="modal"
+          id="modal"
+          onClick={[Function]}
+>
+          <span
+                    className="close"
+                    onClick={[Function]}
+          >
+                    ×
+          </span>
+          <img
+                    alt="enhanced modal"
+                    className="modal-content"
+                    id="modalImg"
+                    src="http://target.scene7.com/is/image/Target/14263758"
+          />
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <img
+            alt="blender"
+            onClick={[Function]}
+            src="http://target.scene7.com/is/image/Target/14263758"
+/>,
+          "className": "image-carousel-container",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "blender",
+            "onClick": [Function],
+            "src": "http://target.scene7.com/is/image/Target/14263758",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <FontAwesomeIcon
+              border={false}
+              className=""
+              color="grey"
+              fixedWidth={false}
+              flip={null}
+              icon={
+                            Object {
+                                          "icon": Array [
+                                            512,
+                                            512,
+                                            Array [],
+                                            "f00e",
+                                            "M304 192v32c0 6.6-5.4 12-12 12h-56v56c0 6.6-5.4 12-12 12h-32c-6.6 0-12-5.4-12-12v-56h-56c-6.6 0-12-5.4-12-12v-32c0-6.6 5.4-12 12-12h56v-56c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v56h56c6.6 0 12 5.4 12 12zm201 284.7L476.7 505c-9.4 9.4-24.6 9.4-33.9 0L343 405.3c-4.5-4.5-7-10.6-7-17V372c-35.3 27.6-79.7 44-128 44C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 48.3-16.4 92.7-44 128h16.3c6.4 0 12.5 2.5 17 7l99.7 99.7c9.3 9.4 9.3 24.6 0 34zM344 208c0-75.2-60.8-136-136-136S72 132.8 72 208s60.8 136 136 136 136-60.8 136-136z",
+                                          ],
+                                          "iconName": "search-plus",
+                                          "prefix": "fas",
+                                        }
+              }
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size="2x"
+              spin={false}
+              symbol={false}
+              transform={null}
+/>,
+            " view larger",
+          ],
+          "className": "image-enhance-container",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "border": false,
+              "className": "",
+              "color": "grey",
+              "fixedWidth": false,
+              "flip": null,
+              "icon": Object {
+                "icon": Array [
+                  512,
+                  512,
+                  Array [],
+                  "f00e",
+                  "M304 192v32c0 6.6-5.4 12-12 12h-56v56c0 6.6-5.4 12-12 12h-32c-6.6 0-12-5.4-12-12v-56h-56c-6.6 0-12-5.4-12-12v-32c0-6.6 5.4-12 12-12h56v-56c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v56h56c6.6 0 12 5.4 12 12zm201 284.7L476.7 505c-9.4 9.4-24.6 9.4-33.9 0L343 405.3c-4.5-4.5-7-10.6-7-17V372c-35.3 27.6-79.7 44-128 44C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 48.3-16.4 92.7-44 128h16.3c6.4 0 12.5 2.5 17 7l99.7 99.7c9.3 9.4 9.3 24.6 0 34zM344 208c0-75.2-60.8-136-136-136S72 132.8 72 208s60.8 136 136 136 136-60.8 136-136z",
+                ],
+                "iconName": "search-plus",
+                "prefix": "fas",
+              },
+              "inverse": false,
+              "listItem": false,
+              "mask": null,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": "2x",
+              "spin": false,
+              "symbol": false,
+              "transform": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          " view larger",
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="image-buttons"
+              onClick={[Function]}
+>
+              <FontAwesomeIcon
+                            border={false}
+                            className=""
+                            color="grey"
+                            fixedWidth={false}
+                            flip={null}
+                            icon={
+                                          Object {
+                                                        "icon": Array [
+                                                          256,
+                                                          512,
+                                                          Array [],
+                                                          "f104",
+                                                          "M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z",
+                                                        ],
+                                                        "iconName": "angle-left",
+                                                        "prefix": "fas",
+                                                      }
+                            }
+                            inverse={false}
+                            listItem={false}
+                            mask={null}
+                            pull={null}
+                            pulse={false}
+                            rotation={null}
+                            size="3x"
+                            spin={false}
+                            symbol={false}
+                            transform={null}
+              />
+</button>,
+            <img
+              alt="blender"
+              className="image-thumbnail"
+              onClick={[Function]}
+              src="http://target.scene7.com/is/image/Target/14263758_Alt07"
+/>,
+            <img
+              alt="blender"
+              className="image-thumbnail current-image"
+              src="http://target.scene7.com/is/image/Target/14263758"
+/>,
+            <img
+              alt="blender"
+              className="image-thumbnail"
+              onClick={[Function]}
+              src="http://target.scene7.com/is/image/Target/14263758_Alt01"
+/>,
+            <button
+              className="image-buttons"
+              onClick={[Function]}
+>
+              <FontAwesomeIcon
+                            border={false}
+                            className=""
+                            color="grey"
+                            fixedWidth={false}
+                            flip={null}
+                            icon={
+                                          Object {
+                                                        "icon": Array [
+                                                          256,
+                                                          512,
+                                                          Array [],
+                                                          "f105",
+                                                          "M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z",
+                                                        ],
+                                                        "iconName": "angle-right",
+                                                        "prefix": "fas",
+                                                      }
+                            }
+                            inverse={false}
+                            listItem={false}
+                            mask={null}
+                            pull={null}
+                            pulse={false}
+                            rotation={null}
+                            size="3x"
+                            spin={false}
+                            symbol={false}
+                            transform={null}
+              />
+</button>,
+          ],
+          "className": "image-carousel-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FontAwesomeIcon
+                border={false}
+                className=""
+                color="grey"
+                fixedWidth={false}
+                flip={null}
+                icon={
+                                Object {
+                                                "icon": Array [
+                                                  256,
+                                                  512,
+                                                  Array [],
+                                                  "f104",
+                                                  "M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z",
+                                                ],
+                                                "iconName": "angle-left",
+                                                "prefix": "fas",
+                                              }
+                }
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size="3x"
+                spin={false}
+                symbol={false}
+                transform={null}
+/>,
+              "className": "image-buttons",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "border": false,
+                "className": "",
+                "color": "grey",
+                "fixedWidth": false,
+                "flip": null,
+                "icon": Object {
+                  "icon": Array [
+                    256,
+                    512,
+                    Array [],
+                    "f104",
+                    "M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z",
+                  ],
+                  "iconName": "angle-left",
+                  "prefix": "fas",
+                },
+                "inverse": false,
+                "listItem": false,
+                "mask": null,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": "3x",
+                "spin": false,
+                "symbol": false,
+                "transform": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "blender",
+              "className": "image-thumbnail",
+              "onClick": [Function],
+              "src": "http://target.scene7.com/is/image/Target/14263758_Alt07",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "blender",
+              "className": "image-thumbnail current-image",
+              "src": "http://target.scene7.com/is/image/Target/14263758",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "blender",
+              "className": "image-thumbnail",
+              "onClick": [Function],
+              "src": "http://target.scene7.com/is/image/Target/14263758_Alt01",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FontAwesomeIcon
+                border={false}
+                className=""
+                color="grey"
+                fixedWidth={false}
+                flip={null}
+                icon={
+                                Object {
+                                                "icon": Array [
+                                                  256,
+                                                  512,
+                                                  Array [],
+                                                  "f105",
+                                                  "M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z",
+                                                ],
+                                                "iconName": "angle-right",
+                                                "prefix": "fas",
+                                              }
+                }
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size="3x"
+                spin={false}
+                symbol={false}
+                transform={null}
+/>,
+              "className": "image-buttons",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "border": false,
+                "className": "",
+                "color": "grey",
+                "fixedWidth": false,
+                "flip": null,
+                "icon": Object {
+                  "icon": Array [
+                    256,
+                    512,
+                    Array [],
+                    "f105",
+                    "M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z",
+                  ],
+                  "iconName": "angle-right",
+                  "prefix": "fas",
+                },
+                "inverse": false,
+                "listItem": false,
+                "mask": null,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": "3x",
+                "spin": false,
+                "symbol": false,
+                "transform": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="close"
+              onClick={[Function]}
+>
+              ×
+</span>,
+            <img
+              alt="enhanced modal"
+              className="modal-content"
+              id="modalImg"
+              src="http://target.scene7.com/is/image/Target/14263758"
+/>,
+          ],
+          "className": "modal",
+          "id": "modal",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "×",
+              "className": "close",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "×",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "enhanced modal",
+              "className": "modal-content",
+              "id": "modalImg",
+              "src": "http://target.scene7.com/is/image/Target/14263758",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="image-carousel-container"
+>
+            <img
+                        alt="blender"
+                        onClick={[Function]}
+                        src="http://target.scene7.com/is/image/Target/14263758"
+            />
+</div>,
+          <div
+            className="image-enhance-container"
+            onClick={[Function]}
+>
+            <FontAwesomeIcon
+                        border={false}
+                        className=""
+                        color="grey"
+                        fixedWidth={false}
+                        flip={null}
+                        icon={
+                                    Object {
+                                                "icon": Array [
+                                                  512,
+                                                  512,
+                                                  Array [],
+                                                  "f00e",
+                                                  "M304 192v32c0 6.6-5.4 12-12 12h-56v56c0 6.6-5.4 12-12 12h-32c-6.6 0-12-5.4-12-12v-56h-56c-6.6 0-12-5.4-12-12v-32c0-6.6 5.4-12 12-12h56v-56c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v56h56c6.6 0 12 5.4 12 12zm201 284.7L476.7 505c-9.4 9.4-24.6 9.4-33.9 0L343 405.3c-4.5-4.5-7-10.6-7-17V372c-35.3 27.6-79.7 44-128 44C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 48.3-16.4 92.7-44 128h16.3c6.4 0 12.5 2.5 17 7l99.7 99.7c9.3 9.4 9.3 24.6 0 34zM344 208c0-75.2-60.8-136-136-136S72 132.8 72 208s60.8 136 136 136 136-60.8 136-136z",
+                                                ],
+                                                "iconName": "search-plus",
+                                                "prefix": "fas",
+                                              }
+                        }
+                        inverse={false}
+                        listItem={false}
+                        mask={null}
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size="2x"
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+            />
+             view larger
+</div>,
+          <div
+            className="image-carousel-container"
+>
+            <button
+                        className="image-buttons"
+                        onClick={[Function]}
+            >
+                        <FontAwesomeIcon
+                                    border={false}
+                                    className=""
+                                    color="grey"
+                                    fixedWidth={false}
+                                    flip={null}
+                                    icon={
+                                                Object {
+                                                            "icon": Array [
+                                                              256,
+                                                              512,
+                                                              Array [],
+                                                              "f104",
+                                                              "M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z",
+                                                            ],
+                                                            "iconName": "angle-left",
+                                                            "prefix": "fas",
+                                                          }
+                                    }
+                                    inverse={false}
+                                    listItem={false}
+                                    mask={null}
+                                    pull={null}
+                                    pulse={false}
+                                    rotation={null}
+                                    size="3x"
+                                    spin={false}
+                                    symbol={false}
+                                    transform={null}
+                        />
+            </button>
+            <img
+                        alt="blender"
+                        className="image-thumbnail"
+                        onClick={[Function]}
+                        src="http://target.scene7.com/is/image/Target/14263758_Alt07"
+            />
+            <img
+                        alt="blender"
+                        className="image-thumbnail current-image"
+                        src="http://target.scene7.com/is/image/Target/14263758"
+            />
+            <img
+                        alt="blender"
+                        className="image-thumbnail"
+                        onClick={[Function]}
+                        src="http://target.scene7.com/is/image/Target/14263758_Alt01"
+            />
+            <button
+                        className="image-buttons"
+                        onClick={[Function]}
+            >
+                        <FontAwesomeIcon
+                                    border={false}
+                                    className=""
+                                    color="grey"
+                                    fixedWidth={false}
+                                    flip={null}
+                                    icon={
+                                                Object {
+                                                            "icon": Array [
+                                                              256,
+                                                              512,
+                                                              Array [],
+                                                              "f105",
+                                                              "M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z",
+                                                            ],
+                                                            "iconName": "angle-right",
+                                                            "prefix": "fas",
+                                                          }
+                                    }
+                                    inverse={false}
+                                    listItem={false}
+                                    mask={null}
+                                    pull={null}
+                                    pulse={false}
+                                    rotation={null}
+                                    size="3x"
+                                    spin={false}
+                                    symbol={false}
+                                    transform={null}
+                        />
+            </button>
+</div>,
+          <div
+            className="modal"
+            id="modal"
+            onClick={[Function]}
+>
+            <span
+                        className="close"
+                        onClick={[Function]}
+            >
+                        ×
+            </span>
+            <img
+                        alt="enhanced modal"
+                        className="modal-content"
+                        id="modalImg"
+                        src="http://target.scene7.com/is/image/Target/14263758"
+            />
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="blender"
+              onClick={[Function]}
+              src="http://target.scene7.com/is/image/Target/14263758"
+/>,
+            "className": "image-carousel-container",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "blender",
+              "onClick": [Function],
+              "src": "http://target.scene7.com/is/image/Target/14263758",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <FontAwesomeIcon
+                border={false}
+                className=""
+                color="grey"
+                fixedWidth={false}
+                flip={null}
+                icon={
+                                Object {
+                                                "icon": Array [
+                                                  512,
+                                                  512,
+                                                  Array [],
+                                                  "f00e",
+                                                  "M304 192v32c0 6.6-5.4 12-12 12h-56v56c0 6.6-5.4 12-12 12h-32c-6.6 0-12-5.4-12-12v-56h-56c-6.6 0-12-5.4-12-12v-32c0-6.6 5.4-12 12-12h56v-56c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v56h56c6.6 0 12 5.4 12 12zm201 284.7L476.7 505c-9.4 9.4-24.6 9.4-33.9 0L343 405.3c-4.5-4.5-7-10.6-7-17V372c-35.3 27.6-79.7 44-128 44C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 48.3-16.4 92.7-44 128h16.3c6.4 0 12.5 2.5 17 7l99.7 99.7c9.3 9.4 9.3 24.6 0 34zM344 208c0-75.2-60.8-136-136-136S72 132.8 72 208s60.8 136 136 136 136-60.8 136-136z",
+                                                ],
+                                                "iconName": "search-plus",
+                                                "prefix": "fas",
+                                              }
+                }
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size="2x"
+                spin={false}
+                symbol={false}
+                transform={null}
+/>,
+              " view larger",
+            ],
+            "className": "image-enhance-container",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "border": false,
+                "className": "",
+                "color": "grey",
+                "fixedWidth": false,
+                "flip": null,
+                "icon": Object {
+                  "icon": Array [
+                    512,
+                    512,
+                    Array [],
+                    "f00e",
+                    "M304 192v32c0 6.6-5.4 12-12 12h-56v56c0 6.6-5.4 12-12 12h-32c-6.6 0-12-5.4-12-12v-56h-56c-6.6 0-12-5.4-12-12v-32c0-6.6 5.4-12 12-12h56v-56c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v56h56c6.6 0 12 5.4 12 12zm201 284.7L476.7 505c-9.4 9.4-24.6 9.4-33.9 0L343 405.3c-4.5-4.5-7-10.6-7-17V372c-35.3 27.6-79.7 44-128 44C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 48.3-16.4 92.7-44 128h16.3c6.4 0 12.5 2.5 17 7l99.7 99.7c9.3 9.4 9.3 24.6 0 34zM344 208c0-75.2-60.8-136-136-136S72 132.8 72 208s60.8 136 136 136 136-60.8 136-136z",
+                  ],
+                  "iconName": "search-plus",
+                  "prefix": "fas",
+                },
+                "inverse": false,
+                "listItem": false,
+                "mask": null,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": "2x",
+                "spin": false,
+                "symbol": false,
+                "transform": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            " view larger",
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="image-buttons"
+                onClick={[Function]}
+>
+                <FontAwesomeIcon
+                                border={false}
+                                className=""
+                                color="grey"
+                                fixedWidth={false}
+                                flip={null}
+                                icon={
+                                                Object {
+                                                                "icon": Array [
+                                                                  256,
+                                                                  512,
+                                                                  Array [],
+                                                                  "f104",
+                                                                  "M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z",
+                                                                ],
+                                                                "iconName": "angle-left",
+                                                                "prefix": "fas",
+                                                              }
+                                }
+                                inverse={false}
+                                listItem={false}
+                                mask={null}
+                                pull={null}
+                                pulse={false}
+                                rotation={null}
+                                size="3x"
+                                spin={false}
+                                symbol={false}
+                                transform={null}
+                />
+</button>,
+              <img
+                alt="blender"
+                className="image-thumbnail"
+                onClick={[Function]}
+                src="http://target.scene7.com/is/image/Target/14263758_Alt07"
+/>,
+              <img
+                alt="blender"
+                className="image-thumbnail current-image"
+                src="http://target.scene7.com/is/image/Target/14263758"
+/>,
+              <img
+                alt="blender"
+                className="image-thumbnail"
+                onClick={[Function]}
+                src="http://target.scene7.com/is/image/Target/14263758_Alt01"
+/>,
+              <button
+                className="image-buttons"
+                onClick={[Function]}
+>
+                <FontAwesomeIcon
+                                border={false}
+                                className=""
+                                color="grey"
+                                fixedWidth={false}
+                                flip={null}
+                                icon={
+                                                Object {
+                                                                "icon": Array [
+                                                                  256,
+                                                                  512,
+                                                                  Array [],
+                                                                  "f105",
+                                                                  "M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z",
+                                                                ],
+                                                                "iconName": "angle-right",
+                                                                "prefix": "fas",
+                                                              }
+                                }
+                                inverse={false}
+                                listItem={false}
+                                mask={null}
+                                pull={null}
+                                pulse={false}
+                                rotation={null}
+                                size="3x"
+                                spin={false}
+                                symbol={false}
+                                transform={null}
+                />
+</button>,
+            ],
+            "className": "image-carousel-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  color="grey"
+                  fixedWidth={false}
+                  flip={null}
+                  icon={
+                                    Object {
+                                                      "icon": Array [
+                                                        256,
+                                                        512,
+                                                        Array [],
+                                                        "f104",
+                                                        "M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z",
+                                                      ],
+                                                      "iconName": "angle-left",
+                                                      "prefix": "fas",
+                                                    }
+                  }
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size="3x"
+                  spin={false}
+                  symbol={false}
+                  transform={null}
+/>,
+                "className": "image-buttons",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "border": false,
+                  "className": "",
+                  "color": "grey",
+                  "fixedWidth": false,
+                  "flip": null,
+                  "icon": Object {
+                    "icon": Array [
+                      256,
+                      512,
+                      Array [],
+                      "f104",
+                      "M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z",
+                    ],
+                    "iconName": "angle-left",
+                    "prefix": "fas",
+                  },
+                  "inverse": false,
+                  "listItem": false,
+                  "mask": null,
+                  "pull": null,
+                  "pulse": false,
+                  "rotation": null,
+                  "size": "3x",
+                  "spin": false,
+                  "symbol": false,
+                  "transform": null,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "blender",
+                "className": "image-thumbnail",
+                "onClick": [Function],
+                "src": "http://target.scene7.com/is/image/Target/14263758_Alt07",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "blender",
+                "className": "image-thumbnail current-image",
+                "src": "http://target.scene7.com/is/image/Target/14263758",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "blender",
+                "className": "image-thumbnail",
+                "onClick": [Function],
+                "src": "http://target.scene7.com/is/image/Target/14263758_Alt01",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  color="grey"
+                  fixedWidth={false}
+                  flip={null}
+                  icon={
+                                    Object {
+                                                      "icon": Array [
+                                                        256,
+                                                        512,
+                                                        Array [],
+                                                        "f105",
+                                                        "M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z",
+                                                      ],
+                                                      "iconName": "angle-right",
+                                                      "prefix": "fas",
+                                                    }
+                  }
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size="3x"
+                  spin={false}
+                  symbol={false}
+                  transform={null}
+/>,
+                "className": "image-buttons",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "border": false,
+                  "className": "",
+                  "color": "grey",
+                  "fixedWidth": false,
+                  "flip": null,
+                  "icon": Object {
+                    "icon": Array [
+                      256,
+                      512,
+                      Array [],
+                      "f105",
+                      "M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z",
+                    ],
+                    "iconName": "angle-right",
+                    "prefix": "fas",
+                  },
+                  "inverse": false,
+                  "listItem": false,
+                  "mask": null,
+                  "pull": null,
+                  "pulse": false,
+                  "rotation": null,
+                  "size": "3x",
+                  "spin": false,
+                  "symbol": false,
+                  "transform": null,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="close"
+                onClick={[Function]}
+>
+                ×
+</span>,
+              <img
+                alt="enhanced modal"
+                className="modal-content"
+                id="modalImg"
+                src="http://target.scene7.com/is/image/Target/14263758"
+/>,
+            ],
+            "className": "modal",
+            "id": "modal",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "×",
+                "className": "close",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "×",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "enhanced modal",
+                "className": "modal-content",
+                "id": "modalImg",
+                "src": "http://target.scene7.com/is/image/Target/14263758",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
