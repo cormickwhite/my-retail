@@ -40,6 +40,11 @@
   align-items: center;
 }
 
+.returns-container {
+  display: flex;
+  align-items: center;
+}
+
 .circle-button {
   color: grey;
   border: none;
@@ -133,12 +138,17 @@
   font-size: 2em;
 }
 
+.med-lrg-subtext {
+  color: grey;
+  font-size: 1.5em;
+}
+
 .sm-text {
   font-size: 0.75em;
 }
 
 .sm-subtext {
-  color: #808080;
+  color: grey;
   font-size: 0.75em;
 }
 
@@ -150,6 +160,12 @@
 .bottom-divider {
   border-bottom: 1px solid #c0c0c0;
   padding-top: 10px;
+}
+
+.vert-divider {
+  border-left: 1px solid #808080;
+  height: 30px;
+  padding-left: 10px;
 }
 
 .outline-box {

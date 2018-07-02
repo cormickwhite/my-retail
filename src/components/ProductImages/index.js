@@ -92,7 +92,7 @@ class ProductImages extends Component {
           />
         </div>
         <div className="image-enhance-container" onClick={this.viewLarger}>
-          <FontAwesomeIcon icon={faSearchPlus} size="3x" color="grey" /> view
+          <FontAwesomeIcon icon={faSearchPlus} size="2x" color="grey" /> view
           larger
         </div>
         <div className="image-carousel-container">

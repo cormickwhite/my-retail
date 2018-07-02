@@ -6,6 +6,7 @@ import ProductImages from './components/ProductImages';
 import ProductPrice from './components/ProductPrice';
 import ProductPromotions from './components/ProductPromotions';
 import ProductPurchase from './components/ProductPurchase';
+import ProductReturns from './components/ProductReturns';
 
 import ItemData from './itemData.json';
 
@@ -24,6 +25,7 @@ class App extends Component {
             <ProductPrice price={item.Offers[0].OfferPrice[0]} />
             <ProductPromotions promotions={item.Promotions} />
             <ProductPurchase purchaseChannelCode={item.purchasingChannelCode} />
+            <ProductReturns />
           </div>
         </div>
       </div>
