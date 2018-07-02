@@ -9,6 +9,7 @@ import ProductPurchase from './components/ProductPurchase';
 import ProductReturns from './components/ProductReturns';
 import ProductRegistryShare from './components/ProductRegistryShare';
 import ProductHighlights from './components/ProductHighlights';
+import ProductReviews from './components/ProductReviews';
 
 import ItemData from './itemData.json';
 
@@ -30,6 +31,11 @@ class App extends Component {
             <ProductReturns />
             <ProductRegistryShare />
             <ProductHighlights highlights={item.ItemDescription[0].features} />
+          </div>
+        </div>
+        <div className="App-row-container">
+          <div className="App-col-contents">
+            <ProductReviews reviews={item.CustomerReview[0]} />
           </div>
         </div>
       </div>

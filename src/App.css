@@ -165,9 +165,18 @@ li {
   font-size: 2em;
 }
 
+.med-lrg-text {
+  font-size: 1.5em;
+}
+
 .med-lrg-subtext {
   color: grey;
   font-size: 1.5em;
+}
+
+.med-subtext {
+  color: #808080;
+  font-size: 1em;
 }
 
 .sm-text {
@@ -215,4 +224,28 @@ li {
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.reviews-header-container {
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews-container {
+  background-color: #f1f1f1;
+}
+
+.reviews-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.reviews-content {
+  text-align: left;
+  padding: 10px;
+  width: 50%;
 }
