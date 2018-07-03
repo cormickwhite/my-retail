@@ -34,6 +34,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
+### `npm run cypress:open`
+
+Run while app is running locally ('npm start'), to run Cypress functional tests.
+
 ## Code Formatted Automatically
 
 Prettier is an opinionated code formatter with support for JavaScript, CSS and JSON. Prettier is run in a pre-commit script, and formats any changed files before commiting them. See [Prettier's GitHub page](https://github.com/prettier/prettier) for more information, and look at this [page to see it in action](https://prettier.github.io/prettier/).

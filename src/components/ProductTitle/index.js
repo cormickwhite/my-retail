@@ -8,7 +8,7 @@ class ProductTitle extends Component {
     const titleArray = split(title, 'with', 2);
 
     return (
-      <div className="title-container">
+      <div className="title-container" data-test="title">
         <div>{titleArray[0]}</div>
         <div>with {titleArray[1]}</div>
       </div>
