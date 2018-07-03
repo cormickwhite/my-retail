@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import './App.css';
+
+import { fetchItem } from './store/items/actionCreator';
 
 import ProductTitle from './components/ProductTitle';
 import ProductImages from './components/ProductImages';
@@ -11,26 +14,15 @@ import ProductRegistryShare from './components/ProductRegistryShare';
 import ProductHighlights from './components/ProductHighlights';
 import ProductReviews from './components/ProductReviews';
 
-import { requestItems } from './services/itemsService';
-
 import isEmpty from 'lodash/isEmpty';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      item: {}
-    };
-  }
-
   componentDidMount() {
-    this.setState({
-      item: requestItems()
-    });
+    this.props.fetchItem();
   }
 
   render() {
-    const { item } = this.state;
+    const { item } = this.props;
 
     return (
       <div>
@@ -66,4 +58,15 @@ class App extends Component {
   }
 }
 
-export default App;
+const mapDispatchToProps = { fetchItem };
+
+function mapStateToProps(state) {
+  return {
+    item: state.items.item
+  };
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(App);

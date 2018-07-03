@@ -1,5 +1,5 @@
 import ItemData from '../itemData.json';
 
 export function requestItems() {
-  return ItemData.CatalogEntryView[0];
+  return Promise.resolve(ItemData.CatalogEntryView[0]);
 }
