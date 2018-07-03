@@ -109,6 +109,10 @@ li {
   border: none;
 }
 
+.image-buttons-text {
+  vertical-align: 5px;
+}
+
 .image-thumbnail {
   width: 75px;
 }
@@ -220,6 +224,7 @@ li {
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+  vertical-align: 3px;
 }
 
 .reviews-header-container {

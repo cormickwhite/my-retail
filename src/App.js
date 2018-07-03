@@ -16,7 +16,7 @@ import ProductReviews from './components/ProductReviews';
 
 import isEmpty from 'lodash/isEmpty';
 
-class App extends Component {
+export class App extends Component {
   componentDidMount() {
     this.props.fetchItem();
   }
