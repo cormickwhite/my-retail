@@ -36,7 +36,7 @@ Your app is ready to be deployed!
 
 ### `npm run cypress:open`
 
-Run while app is running locally ('npm start'), to run Cypress functional tests.
+Run while app is running locally (`npm start`), to run Cypress functional tests.
 
 ## Code Formatted Automatically
 
