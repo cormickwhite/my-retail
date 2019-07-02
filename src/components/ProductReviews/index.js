@@ -56,7 +56,7 @@ class ProductReviews extends Component {
               <div>{reviews.Pro[0].review}</div>
               <div>
                 <br />
-                <a>{reviews.Pro[0].screenName}</a>{' '}
+                <span>{reviews.Pro[0].screenName}</span>{' '}
                 {this.formatDate(reviews.Pro[0].datePosted)}
               </div>
             </div>
@@ -68,7 +68,7 @@ class ProductReviews extends Component {
               <div>{reviews.Con[0].review}</div>
               <div>
                 <br />
-                <a>{reviews.Con[0].screenName}</a>{' '}
+                <span>{reviews.Con[0].screenName}</span>{' '}
                 {this.formatDate(reviews.Con[0].datePosted)}
               </div>
             </div>
